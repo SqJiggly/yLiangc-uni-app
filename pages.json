@@ -1,0 +1,53 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"selectedColor": "#ff0505",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+				"path": "detail/detail",
+				"style": {}
+			},
+			{
+				"path": "good_list/good_list",
+				"style": {
+					"onReachBottomDistance": 50,
+					"enablePullDownRefresh": true,
+					"backgroundColor": "#f8f8ff"
+				}
+			}
+
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "心心相印",
+		"navigationBarBackgroundColor": "#ff0000",
+		"backgroundColor": "#ff0000",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
