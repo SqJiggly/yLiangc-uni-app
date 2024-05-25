@@ -1,1 +1,0 @@
-<view><button data-event-opts="{{[['tap',[['toDetail',['$event']]]]]}}" bindtap="__e">去到详情</button><u-button vue-id="1da55560-1" type="primary" text="确定" bind:__l="__l"></u-button><view>{{name+"111222"}}</view><my-header vue-id="1da55560-2" bind:__l="__l"></my-header></view>
